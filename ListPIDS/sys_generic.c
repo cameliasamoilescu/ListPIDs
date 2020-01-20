@@ -1056,7 +1056,7 @@ void DFS(struct process *p, int n){
 
 	struct proc *mainProc = p->ps_mainproc;
 
-	//print the process informations
+	//print the process information
 	printf("%*c", n, ' ');
 	printf("Flag %d   Pid %d   Comm %s   Status %d\n",mainProc->p_flag, p->ps_pid, p->ps_comm, mainProc->p_stat);
 
